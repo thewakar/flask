@@ -6,7 +6,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
+    return jsonify({"Its Me": " Welcome Thewakar"})
+
+
+
+
+
+
+
+
 
 
 if __name__ == '__main__':
